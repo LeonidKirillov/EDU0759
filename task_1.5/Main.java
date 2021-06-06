@@ -12,9 +12,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
                 // Ваш код
+        System.out.print("Введите значение в Цельсиях: ");
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
-        String b = ("Значение ");
+        int b = (9 / 5)*a+32;
+
         System.out.println(b);
 
 
